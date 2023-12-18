@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Payment">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="?attr/colorPrimary"
+            android:minHeight="?attr/actionBarSize"
+            android:theme="?attr/actionBarTheme"
+            app:title="Order Description" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="24dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                >
+
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:scaleType="fitCenter"
+                    android:adjustViewBounds="true"
+                    android:drawableLeft="@drawable/tshirt"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Zara T-Shirt"
+                    android:id="@+id/detText"
+                    android:textSize="15dp"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginLeft="10dp"
+                    android:textColor="@color/gray"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="(Blue)"
+                    android:id="@+id/det2Text"
+                    android:textSize="15dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="30dp"
+                    android:textColor="@color/gray"/>
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:drawableLeft="@drawable/add"
+                    android:id="@+id/det29Text"
+                    android:textSize="15dp"
+                    android:layout_marginLeft="170dp"
+                    android:textStyle="bold"
+                    android:layout_marginTop="30dp"
+                    android:textColor="@color/gray"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:drawableLeft="@drawable/minus"
+                    android:id="@+id/det22Text"
+                    android:textSize="15dp"
+                    android:textStyle="bold"
+                    android:layout_marginTop="30dp"
+                    android:textColor="@color/gray"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                >
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="$110"
+                    android:textStyle="bold"
+                    android:id="@+id/det4Text"
+                    android:textSize="20dp"
+                    android:layout_marginLeft="60dp"
+                    android:textColor="@color/gray"/>
+
+            </LinearLayout>
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingLeft="30dp"
+            >
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:scaleType="fitCenter"
+                android:padding="1dp"
+                android:adjustViewBounds="true"
+                android:drawableLeft="@drawable/tshirt"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Zara T-Shirt"
+                android:id="@+id/det28Text"
+                android:textSize="15dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginLeft="10dp"
+                android:textColor="@color/gray"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="(Blue)"
+                android:id="@+id/det27Text"
+                android:textSize="15dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="30dp"
+                android:textColor="@color/gray"/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/add"
+                android:id="@+id/det8Text"
+                android:textSize="15dp"
+                android:layout_marginLeft="170dp"
+                android:textStyle="bold"
+                android:layout_marginTop="30dp"
+                android:textColor="@color/gray"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/minus"
+                android:id="@+id/det24Text"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:layout_marginTop="30dp"
+                android:textColor="@color/gray"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingLeft="30dp"
+            >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="$110"
+                android:textStyle="bold"
+                android:id="@+id/det12Text"
+                android:textSize="20dp"
+                android:layout_marginLeft="60dp"
+                android:textColor="@color/gray"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingLeft="30dp"
+            >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="$TOTAL ITEMS"
+                android:textStyle="bold"
+                android:id="@+id/det30Text"
+                android:textSize="20dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="50dp"
+                android:textColor="@color/gray"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="2"
+                android:textStyle="bold"
+                android:id="@+id/det31Text"
+                android:textSize="20dp"
+                android:layout_marginTop="50dp"
+                android:layout_marginLeft="210dp"
+                android:textColor="@color/gray"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingLeft="30dp"
+            >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="$TOTAL AMOUNT"
+                android:textStyle="bold"
+                android:id="@+id/det32Text"
+                android:textSize="20dp"
+                android:layout_marginLeft="10dp"
+                android:textColor="@color/gray"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="$240"
+                android:textStyle="bold"
+                android:id="@+id/det33Text"
+                android:textSize="20dp"
+                android:layout_marginLeft="180dp"
+                android:textColor="@color/gray"/>
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Terra Rueegger | Spintex"
+            android:id="@+id/det34Text"
+            android:textSize="15dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="30dp"
+            android:textColor="@color/gray"/>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="500dp"
+            android:layout_margin="30dp"
+            app:cardCornerRadius="30dp"
+            app:cardElevation="20dp"
+            android:background="@drawable/custom_edittext">
+
+            <Button
+                android:layout_width="250dp"
+                android:layout_height="50dp"
+                android:id="@+id/cashButton"
+                android:text="CASH"
+                android:textSize="18sp"
+                android:layout_marginTop="50dp"
+                android:background="@color/purple_light"
+                android:textColor="@color/gray_dark"
+                android:layout_marginLeft="50dp"
+                app:cornerRadius = "15dp"/>
+
+            <Button
+                android:layout_width="250dp"
+                android:layout_height="50dp"
+                android:id="@+id/cardButton"
+                android:text="CARD"
+                android:textSize="18sp"
+                android:layout_marginTop="110dp"
+                android:background="@color/purple_light"
+                android:textColor="@color/gray_dark"
+                android:layout_marginLeft="50dp"
+                app:cornerRadius = "15dp"/>
+
+            <Button
+                android:layout_width="250dp"
+                android:layout_height="50dp"
+                android:id="@+id/walletButton"
+                android:text="WALLET"
+                android:textSize="18sp"
+                android:layout_marginTop="170dp"
+                android:background="@color/purple_light"
+                android:textColor="@color/gray_dark"
+                android:layout_marginLeft="50dp"
+                app:cornerRadius = "15dp"/>
+
+            <Button
+                android:layout_width="250dp"
+                android:layout_height="50dp"
+                android:id="@+id/cancelButton"
+                android:text="CANCEL"
+                android:textSize="18sp"
+                android:layout_marginTop="230dp"
+                android:background="@color/red"
+                android:textColor="@color/white"
+                android:layout_marginLeft="50dp"
+                app:cornerRadius = "15dp"/>
+
+        </androidx.cardview.widget.CardView>
+
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

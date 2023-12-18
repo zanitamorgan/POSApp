@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/purple"
+        android:layout_margin="40dp">
+
+        <TableRow
+            android:background="@color/purple">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="@string/col1"
+                android:textColor="@color/white"
+                android:padding="10sp"
+                android:textSize="14sp"
+                android:layout_weight="4"
+                android:gravity="center_horizontal"/>
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="@string/col2"
+                android:textColor="@color/white"
+                android:padding="10sp"
+                android:textSize="14sp"
+                android:layout_weight="4"
+                android:gravity="center_horizontal"/>
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="@string/col32"
+                android:textColor="@color/white"
+                android:padding="10sp"
+                android:textSize="14sp"
+                android:layout_weight="4"
+                android:gravity="center_horizontal"/>
+
+        </TableRow>
+
+        <!--Table Data-->
+
+        <TableRow
+            android:background="@color/white">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="@string/row1Item"
+                android:padding="10sp"
+                android:textSize="12sp"
+                android:layout_weight="4"
+                android:gravity="center_horizontal"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="@string/row1Net"
+                android:padding="10sp"
+                android:textSize="12sp"
+                android:layout_weight="4"
+                android:gravity="center_horizontal"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="@string/row1Status"
+                android:padding="10sp"
+                android:textSize="12sp"
+                android:layout_weight="4"
+                android:gravity="center_horizontal"/>
+
+        </TableRow>
+
+        <TableRow
+            android:background="@color/white">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="@string/row2Item"
+                android:padding="10sp"
+                android:textSize="12sp"
+                android:layout_weight="4"
+                android:gravity="center_horizontal"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="@string/row2Net"
+                android:padding="10sp"
+                android:textSize="12sp"
+                android:layout_weight="4"
+                android:gravity="center_horizontal"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="@string/row2Status"
+                android:padding="10sp"
+                android:textSize="12sp"
+                android:layout_weight="4"
+                android:gravity="center_horizontal"/>
+
+        </TableRow>
+
+        <TableRow
+            android:background="@color/white">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="@string/row3Item"
+                android:padding="10sp"
+                android:textSize="12sp"
+                android:layout_weight="4"
+                android:gravity="center_horizontal"/>
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="@string/row3Net"
+                android:padding="10sp"
+                android:textSize="12sp"
+                android:layout_weight="4"
+                android:gravity="center_horizontal"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="@string/row3Status"
+                android:padding="10sp"
+                android:textSize="12sp"
+                android:layout_weight="4"
+                android:gravity="center_horizontal"/>
+
+        </TableRow>
+
+        <TableRow
+            android:background="@color/white">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="@string/row4Item"
+                android:padding="10sp"
+                android:textSize="12sp"
+                android:layout_weight="4"
+                android:textStyle="bold"
+                android:gravity="center_horizontal"/>
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="@string/row4Net"
+                android:padding="10sp"
+                android:textSize="12sp"
+                android:layout_weight="4"
+                android:textStyle="bold"
+                android:gravity="center_horizontal"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="@string/row4Status"
+                android:padding="10sp"
+                android:textSize="12sp"
+                android:layout_weight="4"
+                android:textStyle="bold"
+                android:gravity="center_horizontal"/>
+
+        </TableRow>
+
+
+    </TableLayout>
+
+
+
+
+</LinearLayout>

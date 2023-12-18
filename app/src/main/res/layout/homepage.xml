@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Dashboard"
+        android:id="@+id/dashText"
+        android:textSize="25dp"
+        android:layout_marginLeft="150dp"
+        android:textStyle="bold"
+        android:layout_marginTop="30dp"
+        android:textColor="@color/purple"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="70dp"
+        android:background="@android:color/darker_gray"/>
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="150dp"
+        android:layout_height="133dp"
+        android:scaleType="fitCenter"
+        android:adjustViewBounds="true"
+        android:padding="1dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="100dp"
+        app:srcCompat="@drawable/transaction12" />
+
+    <ImageButton
+        android:id="@+id/imageButton3"
+        android:layout_width="150dp"
+        android:layout_height="133dp"
+        android:scaleType="fitCenter"
+        android:adjustViewBounds="true"
+        android:padding="1dp"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="100dp"
+        app:srcCompat="@drawable/sales" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Transactions"
+        android:id="@+id/transText"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:layout_marginTop="250dp"
+        android:layout_marginLeft="50dp"
+        android:textColor="@color/purple"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Day Sales"
+            android:id="@+id/dsText"
+            android:textSize="18dp"
+            android:layout_marginLeft="250dp"
+            android:textStyle="bold"
+            android:layout_marginTop="250dp"
+            android:textColor="@color/purple"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+
+    <ImageButton
+        android:id="@+id/imageButton4"
+        android:layout_width="150dp"
+        android:layout_height="133dp"
+        android:scaleType="fitCenter"
+        android:adjustViewBounds="true"
+        android:padding="1dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="350dp"
+        app:srcCompat="@drawable/pc" />
+
+        <ImageButton
+            android:id="@+id/imageButton5"
+            android:layout_width="150dp"
+            android:layout_height="133dp"
+            android:scaleType="fitCenter"
+            android:adjustViewBounds="true"
+            android:padding="1dp"
+            android:layout_marginLeft="200dp"
+            android:layout_marginTop="350dp"
+            app:srcCompat="@drawable/order" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Purchases"
+                android:id="@+id/purchaseText"
+                android:textSize="18dp"
+                android:textStyle="bold"
+                android:layout_marginTop="500dp"
+                android:layout_marginLeft="50dp"
+                android:textColor="@color/purple"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Orders"
+                android:id="@+id/orderText"
+                android:textSize="18dp"
+                android:layout_marginLeft="250dp"
+                android:textStyle="bold"
+                android:layout_marginTop="500dp"
+                android:textColor="@color/purple"/>
+
+        </RelativeLayout>
+    </RelativeLayout>
+    </RelativeLayout>
+    </RelativeLayout>

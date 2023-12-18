@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">POSApp</string>
+    <string name="col1">Item</string>
+    <string name="col2">Net</string>
+    <string name="col3">Status</string>
+    <string name="col4">Paid In</string>
+    <string name="col5">Status</string>
+    <string name="col6">Status</string>
+    <string name="col7">Paid Out</string>
+    <string name="col8">Status</string>
+    <string name="col9">Status</string>
+    <string name="row1Item">Grocery</string>
+    <string name="row1Net">$110</string>
+    <string name="row1Status">Paid</string>
+    <string name="row2Item">Shoes</string>
+    <string name="row2Net">$90</string>
+    <string name="row2Status">Pending</string>
+    <string name="row3Item">Clothes</string>
+    <string name="row3Net">$300</string>
+    <string name="row3Status">Paid</string>
+    <string name="row4Item">TOTAL</string>
+    <string name="row4Net"></string>
+    <string name="row4Status">$9000</string>
+    <string name="row5">Cashier</string>
+    <string name="row51">Time</string>
+    <string name="row52">Amount</string>
+    <string name="col32">Sales</string>
+</resources>
